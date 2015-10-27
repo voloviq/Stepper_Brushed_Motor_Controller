@@ -1,0 +1,13 @@
+Title: * E:\Projekty\Stepper_Motor_Brushed_Motor_Controller\Brushed_Motor_Simulation\Brushed_Motor_Simulation.asc
+Date: Tue Oct 27 22:31:14 2015
+Plotname: Transient Analysis
+Flags: real forward
+No. Variables: 77
+No. Points:            0
+Offset:   0.0000000000000000e+000
+Command: Linear Technology Corporation LTspice IV
+Backannotation: u1 1 2 3 4
+Backannotation: u2 1 2 3 4
+Backannotation: u3 1 2 3 4 5
+Backannotation: u4 1 2 3 4 5
+Variables:
