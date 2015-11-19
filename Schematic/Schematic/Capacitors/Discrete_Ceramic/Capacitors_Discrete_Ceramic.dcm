@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100nF_50V
+D 100nF/50V Ceramic X7R Leaded Capacitor
+K Capacitor
+F D:/Git_Kicad_Library/Schematic/Capacitors/Discrete_Ceramic/Components_Documentation/c3xx_kemet.pdf
+$ENDCMP
+#
+$CMP 1nF_50V
+D 1nF/50V Multilayer Ceramic X7R Capacitor
+K Capacitor Ceramic
+F D:/Git_Kicad_Library/Schematic/Capacitors/Discrete_Ceramic/Components_Documentation/c3xx_kemet.pdf
+$ENDCMP
+#
+$CMP 22nF_50V
+D 22nF/50V Ceramic X7R Leaded Capacitor
+K Capacitor
+F D:/Git_Kicad_Library/Schematic/Capacitors/Discrete_Ceramic/Components_Documentation/c3xx_kemet.pdf
+$ENDCMP
+#
+$CMP 470nF_50V
+D 470nF/50V Multilayer Ceramic X7R Capacitor
+K Capacitor
+F D:/Git_Kicad_Library/Schematic/Capacitors/Discrete_Ceramic/Components_Documentation/c3xx_kemet.pdf
+$ENDCMP
+#
+#End Doc Library

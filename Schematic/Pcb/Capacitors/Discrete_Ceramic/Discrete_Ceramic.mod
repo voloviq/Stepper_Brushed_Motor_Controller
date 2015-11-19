@@ -1,0 +1,150 @@
+PCBNEW-LibModule-V1  nie, 8 wrz 2013, 12:46:10
+# encoding utf-8
+Units mm
+$INDEX
+100nF_50V_Ceramic_X7R_5_08mm
+1nF_50V_Ceramic_X7R_5_08mm
+22nF_50V_Ceramic_X7R_5_08mm
+470nF_50V_Ceramic_X7R_5_08mm
+$EndINDEX
+$MODULE 100nF_50V_Ceramic_X7R_5_08mm
+Po 0 0 0 15 52220B85 00000000 ~~
+Li 100nF_50V_Ceramic_X7R_5_08mm
+Cd 100nF/50V 5.08mm pin raster
+Kw Capacitor
+Sc 0
+AR CFP-5_0-2_5-7_5
+Op 0 0 0
+T0 0 -0.29972 1.016 1.016 0 0.2032 N V 21 N "C"
+T1 0 0.70104 0.70104 0.70104 0 0.09906 N I 21 N "V***"
+DS 3.5 -1.25 -3.5 -1.25 0.381 21
+DS -3.5 -1.25 -3.5 1.25 0.381 21
+DS -3.5 1.25 3.5 1.25 0.381 21
+DS 3.5 1.25 3.5 -1.25 0.381 21
+$PAD
+Sh "1" C 1.50114 1.50114 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" C 1.50114 1.50114 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "Capacitors/Discrete_Ceramic/Discrete_Ceramic/100nF_50V_5_08MM.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 100nF_50V_Ceramic_X7R_5_08mm
+$MODULE 1nF_50V_Ceramic_X7R_5_08mm
+Po 0 0 0 15 52220B85 00000000 ~~
+Li 1nF_50V_Ceramic_X7R_5_08mm
+Cd 1nF/50V 5.08mm pin raster
+Kw Capacitor
+Sc 0
+AR CFP-5_0-2_5-7_5
+Op 0 0 0
+T0 0 -0.29972 1.016 1.016 0 0.2032 N V 21 N "C"
+T1 0 0.70104 0.70104 0.70104 0 0.09906 N I 21 N "V***"
+DS 3.5 -1.25 -3.5 -1.25 0.381 21
+DS -3.5 -1.25 -3.5 1.25 0.381 21
+DS -3.5 1.25 3.5 1.25 0.381 21
+DS 3.5 1.25 3.5 -1.25 0.381 21
+$PAD
+Sh "1" C 1.50114 1.50114 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" C 1.50114 1.50114 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "Capacitors/Discrete_Ceramic/Discrete_Ceramic/1nF_50V_5_08MM.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 1nF_50V_Ceramic_X7R_5_08mm
+$MODULE 22nF_50V_Ceramic_X7R_5_08mm
+Po 0 0 0 15 52220B85 00000000 ~~
+Li 22nF_50V_Ceramic_X7R_5_08mm
+Cd 22nF/50V 5.08mm pin raster
+Kw Capacitor
+Sc 0
+AR CFP-5_0-2_5-7_5
+Op 0 0 0
+T0 0 -0.29972 1.016 1.016 0 0.2032 N V 21 N "C"
+T1 0 0.70104 0.70104 0.70104 0 0.09906 N I 21 N "V***"
+DS 3.5 -1.25 -3.5 -1.25 0.381 21
+DS -3.5 -1.25 -3.5 1.25 0.381 21
+DS -3.5 1.25 3.5 1.25 0.381 21
+DS 3.5 1.25 3.5 -1.25 0.381 21
+$PAD
+Sh "1" C 1.50114 1.50114 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" C 1.50114 1.50114 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "Capacitors/Discrete_Ceramic/Discrete_Ceramic/22nF_50V_5_08MM.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 22nF_50V_Ceramic_X7R_5_08mm
+$MODULE 470nF_50V_Ceramic_X7R_5_08mm
+Po 0 0 0 15 52220B85 00000000 ~~
+Li 470nF_50V_Ceramic_X7R_5_08mm
+Cd 470nF/50V 5.08mm pin raster
+Kw Capacitor
+Sc 0
+AR CFP-5_0-2_5-7_5
+Op 0 0 0
+T0 0 -0.29972 1.016 1.016 0 0.2032 N V 21 N "C"
+T1 0 0.70104 0.70104 0.70104 0 0.09906 N I 21 N "V***"
+DS 3.5 -1.25 -3.5 -1.25 0.381 21
+DS -3.5 -1.25 -3.5 1.25 0.381 21
+DS -3.5 1.25 3.5 1.25 0.381 21
+DS 3.5 1.25 3.5 -1.25 0.381 21
+$PAD
+Sh "1" C 1.50114 1.50114 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" C 1.50114 1.50114 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "Capacitors/Discrete_Ceramic/Discrete_Ceramic/470nF_50V_5_08MM.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 470nF_50V_Ceramic_X7R_5_08mm
+$EndLIBRARY

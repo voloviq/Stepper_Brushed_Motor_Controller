@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BUZ11_TO220
+D 30A, 50V, 0.040 Ohm, N-Channel Power MOSFET
+K Transistor Mosfet
+F Transistors/Mosfet/Components_Documentation/BUZ11.pdf
+$ENDCMP
+#
+$CMP IRFTS8342PbF
+D N-Channel 30V 8.2A HEXFET Power MOSFET
+K Transistor Mosfet
+F Transistors/Mosfet/Components_Documentation/Irfts8342pbf.pdf
+$ENDCMP
+#
+$CMP IRFTS9342PbF
+D P-Channel -30V HEXFET Power MOSFET
+K Transistor Mosfet
+F Transistors/Mosfet/Components_Documentation/Irfts9342pbf.pdf
+$ENDCMP
+#
+$CMP SI4463BD
+D P-Channel 2.5-V (g-S) MOSFET
+K Transistor Mosfet
+F Transistors/Mosfet/Components_Documentation/Si4463BD.pdf
+$ENDCMP
+#
+#End Doc Library

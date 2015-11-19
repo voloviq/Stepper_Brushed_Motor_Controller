@@ -1,0 +1,672 @@
+PCBNEW-LibModule-V1  06/04/2014 16:41:50
+# encoding utf-8
+Units mm
+$INDEX
+LM2575_D2PAK_CASE_936A-5Pins
+LM2575_TO-220_CASE_314D-5Pin_Horizontal
+LM2575_TO-220_CASE_314D-5Pin_Vertical
+LM2576_D2PAK_CASE_936A-5Pins
+LM2576_TO-220_CASE_314D-5Pin_Horizontal
+LM2576_TO-220_CASE_314D-5Pin_Vertical
+LM2576_TO220_5_Simple
+TK65600B
+to220-5
+$EndINDEX
+$MODULE LM2575_D2PAK_CASE_936A-5Pins
+Po 0 0 0 15 53412302 00000000 ~~
+Li LM2575_D2PAK_CASE_936A-5Pins
+Cd LM2575_D2PAK_CASE_936A-5Pins
+Kw Regulator
+Sc 0
+AR TO-263PKG
+Op 0 0 0
+T0 0 -9.99998 1.524 1.524 0 0.3048 N V 21 N "D2PAK_CASE_936A"
+T1 0 -7.00024 1.524 1.524 0 0.3048 N I 21 N "VAL**"
+DS 5.00126 -5.19938 -5.00126 -5.19938 0.381 21
+DS -5.00126 5.19938 -5.00126 -5.19938 0.381 21
+DS 5.00126 5.19938 -5.00126 5.19938 0.381 21
+DS 5.00126 -5.19938 5.00126 5.19938 0.381 21
+DC -3.429 4.064 -3.175 4.445 0.381 21
+$PAD
+Sh "1" R 0.81026 2.99974 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.41122 8.49884
+.SolderMask 0.01
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "2" R 0.81026 2.99974 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.70434 8.49884
+.SolderMask 0.01
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "3" R 0.81026 2.99974 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 8.49884
+.SolderMask 0.01
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "4" R 0.81026 2.99974 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.70434 8.49884
+.SolderMask 0.01
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "5" R 0.81026 2.99974 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.41122 8.49884
+.SolderMask 0.01
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "3" R 8.001 8.001 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.00076
+.SolderMask 0.01
+.LocalClearance 0.3
+.ZoneConnection 1
+.ThermalWidth 8
+.ThermalGap 8
+$EndPAD
+$SHAPE3D
+Na "Dc_Dc_Regulators/Switching/3D_View/LM2575_D2PAK_CASE_936A-5Pins.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LM2575_D2PAK_CASE_936A-5Pins
+$MODULE LM2575_TO-220_CASE_314D-5Pin_Horizontal
+Po 0 0 0 15 53416274 00000000 ~~
+Li LM2575_TO-220_CASE_314D-5Pin_Horizontal
+Cd Lm2575_To-220_Case_314_Horizontal
+Kw Regulator
+Sc 0
+AR to220-5h
+Op 0 0 0
+T0 0 -16.256 1.524 1.524 0 0.3048 N V 21 N "TO220-horiz"
+T1 0 -13.843 1.524 1.524 0 0.3048 N I 21 N "Q***"
+DS 3.4 6.8 3.4 5.4 0.254 21
+DS 1.7 6.8 1.7 5.4 0.254 21
+DS 0 6.8 0 5.4 0.254 21
+DS -1.7 6.8 -1.7 5.4 0.254 21
+DS -3.4 6.8 -3.4 5.4 0.254 21
+DS -6.7 -13 6.7 -13 0.254 21
+DS 6.7 -13 6.7 5.4 0.254 21
+DS 6.7 5.4 -6.6 5.4 0.254 21
+DS -6.6 5.4 -6.7 5.4 0.254 21
+DS -6.7 5.4 -6.7 -13 0.254 21
+$PAD
+Sh "1" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.4036 8.382
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "3" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 8.382
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "0" R 12.7 17.78 0 0 0
+Dr 4.0005 0 4.1148
+At STD N 00A08000
+Ne 0 ""
+Po 0 -7.9248
+$EndPAD
+$PAD
+Sh "2" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.7018 8.382
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "4" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.7018 8.382
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "5" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.4036 8.382
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$SHAPE3D
+Na "Dc_Dc_Regulators/Switching/3D_View/LM2575_TO-220_CASE_314D-5Pin_Horizontal.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LM2575_TO-220_CASE_314D-5Pin_Horizontal
+$MODULE LM2575_TO-220_CASE_314D-5Pin_Vertical
+Po 0 0 0 15 51C8ACF4 00000000 ~~
+Li LM2575_TO-220_CASE_314D-5Pin_Vertical
+Cd LM2575_TO-220_CASE_314D-5Pin_Vertical
+Kw Regulator
+Sc 0
+AR 
+Op 0 0 0
+T0 0 4.318 1.524 1.524 0 0.3048 N V 21 N "TO220-5"
+T1 0 -4.318 1.524 1.524 0 0.3048 N I 21 N "Q***"
+DS -5.08 -2.032 5.08 -2.032 0.254 21
+DS -5.08 -1.27 -5.08 2.54 0.254 21
+DS -5.08 2.54 5.08 2.54 0.254 21
+DS 5.08 2.54 5.08 -2.54 0.254 21
+DS 5.08 -2.54 -5.08 -2.54 0.254 21
+DS -5.08 -2.54 -5.08 -1.27 0.254 21
+$PAD
+Sh "1" O 1.4 2.49936 0 0 0
+Dr 1.2192 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.4036 0
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "2" O 1.4 2.49936 0 0 0
+Dr 1.2192 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.7018 0
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "3" O 1.4 2.49936 0 0 0
+Dr 1.2192 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "4" O 1.4 2.49936 0 0 0
+Dr 1.2192 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.7018 0
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "5" O 1.4 2.49936 0 0 0
+Dr 1.2192 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.4036 0
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$SHAPE3D
+Na "Dc_Dc_Regulators/Switching/3D_View/LM2575_TO-220_CASE_314D-5Pin_Vertical.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LM2575_TO-220_CASE_314D-5Pin_Vertical
+$MODULE LM2576_D2PAK_CASE_936A-5Pins
+Po 0 0 0 15 534122CE 00000000 ~~
+Li LM2576_D2PAK_CASE_936A-5Pins
+Cd LM2576_D2PAK_CASE_936A-5Pins
+Kw Regulator
+Sc 0
+AR TO-263PKG
+Op 0 0 0
+T0 0 -9.99998 1.524 1.524 0 0.3048 N V 21 N "D2PAK_CASE_936A"
+T1 0 -7.00024 1.524 1.524 0 0.3048 N I 21 N "VAL**"
+DS 5.00126 -5.19938 -5.00126 -5.19938 0.381 21
+DS -5.00126 5.19938 -5.00126 -5.19938 0.381 21
+DS 5.00126 5.19938 -5.00126 5.19938 0.381 21
+DS 5.00126 -5.19938 5.00126 5.19938 0.381 21
+DC -3.429 4.064 -3.175 4.445 0.381 21
+$PAD
+Sh "1" R 0.81026 2.99974 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.41122 8.49884
+.SolderMask 0.01
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "2" R 0.81026 2.99974 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.70434 8.49884
+.SolderMask 0.01
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "3" R 0.81026 2.99974 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 8.49884
+.SolderMask 0.01
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "4" R 0.81026 2.99974 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.70434 8.49884
+.SolderMask 0.01
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "5" R 0.81026 2.99974 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.41122 8.49884
+.SolderMask 0.01
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "3" R 8.001 8.001 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.00076
+.SolderMask 0.01
+.LocalClearance 0.3
+.ZoneConnection 1
+.ThermalWidth 8
+.ThermalGap 8
+$EndPAD
+$SHAPE3D
+Na "Dc_Dc_Regulators/Switching/3D_View/LM2576_D2PAK_CASE_936A-5Pins.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LM2576_D2PAK_CASE_936A-5Pins
+$MODULE LM2576_TO-220_CASE_314D-5Pin_Horizontal
+Po 0 0 0 15 53416794 00000000 ~~
+Li LM2576_TO-220_CASE_314D-5Pin_Horizontal
+Cd Lm2576_To-220_Case_314_Horizontal
+Kw Regulator
+Sc 0
+AR to220-5h
+Op 0 0 0
+T0 0 -16.256 1.524 1.524 0 0.3048 N V 21 N "TO220-horiz"
+T1 0 -13.843 1.524 1.524 0 0.3048 N I 21 N "Q***"
+DS 3.4 6.8 3.4 5.4 0.254 21
+DS 1.7 6.8 1.7 5.4 0.254 21
+DS 0 6.8 0 5.4 0.254 21
+DS -1.7 6.8 -1.7 5.4 0.254 21
+DS -3.4 6.8 -3.4 5.4 0.254 21
+DS -6.7 -13 6.7 -13 0.254 21
+DS 6.7 -13 6.7 5.4 0.254 21
+DS 6.7 5.4 -6.6 5.4 0.254 21
+DS -6.7 5.4 -6.7 -13 0.254 21
+$PAD
+Sh "1" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.4036 8.382
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "3" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 8.382
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "0" R 12.7 17.78 0 0 0
+Dr 4.0005 0 4.1148
+At STD N 00A08000
+Ne 0 ""
+Po 0 -7.9248
+$EndPAD
+$PAD
+Sh "2" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.7018 8.382
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "4" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.7018 8.382
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "5" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.4036 8.382
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$SHAPE3D
+Na "Dc_Dc_Regulators/Switching/3D_View/LM2576_TO-220_CASE_314D-5Pin_Horizontal.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LM2576_TO-220_CASE_314D-5Pin_Horizontal
+$MODULE LM2576_TO-220_CASE_314D-5Pin_Vertical
+Po 0 0 0 15 51C8AD42 00000000 ~~
+Li LM2576_TO-220_CASE_314D-5Pin_Vertical
+Cd LM2576_TO-220_CASE_314D-5Pin_Vertical
+Kw Regulator
+Sc 0
+AR 
+Op 0 0 0
+T0 0 4.318 1.524 1.524 0 0.3048 N V 21 N "TO220-5"
+T1 0 -4.318 1.524 1.524 0 0.3048 N I 21 N "Q***"
+DS -5.08 -2.032 5.08 -2.032 0.254 21
+DS -5.08 -1.27 -5.08 2.54 0.254 21
+DS -5.08 2.54 5.08 2.54 0.254 21
+DS 5.08 2.54 5.08 -2.54 0.254 21
+DS 5.08 -2.54 -5.08 -2.54 0.254 21
+DS -5.08 -2.54 -5.08 -1.27 0.254 21
+$PAD
+Sh "1" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.4036 0
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "2" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.7018 0
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "3" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "4" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.7018 0
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$PAD
+Sh "5" O 1.4 2.49936 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.4036 0
+.SolderMask 0.1
+.LocalClearance 0.3
+$EndPAD
+$SHAPE3D
+Na "Dc_Dc_Regulators/Switching/3D_View/LM2576_TO-220_CASE_314D-5Pin_Vertical.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LM2576_TO-220_CASE_314D-5Pin_Vertical
+$MODULE LM2576_TO220_5_Simple
+Po 0 0 0 15 50CEF099 00000000 ~~
+Li LM2576_TO220_5_Simple
+Kw Switching Regulator
+Sc 0
+AR LM2576_TO220_5_Simple
+Op 0 0 0
+T0 0 -7.00024 1.524 1.524 0 0.3048 N V 21 N "TO220-5"
+T1 0 -4.318 1.524 1.524 0 0.3048 N I 21 N "Q***"
+DS 5.30098 -2.19964 -5.19938 -2.19964 0.381 21
+DS -5.30098 -1.89992 5.30098 -1.89992 0.381 21
+DS 5.334 -2.41554 -5.334 -2.41554 0.381 21
+DS -5.334 -2.41554 -5.334 2.41554 0.381 21
+DS -5.334 2.41554 5.334 2.41554 0.381 21
+DS 5.334 2.41554 5.334 -2.41554 0.381 21
+$PAD
+Sh "5" O 1.30048 2.49936 0 0 0
+Dr 1.2192 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.4036 0
+$EndPAD
+$PAD
+Sh "4" O 1.30048 2.49936 0 0 0
+Dr 1.2192 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.7018 0
+$EndPAD
+$PAD
+Sh "3" O 1.30048 2.49936 0 0 0
+Dr 1.2192 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" O 1.30048 2.49936 0 0 0
+Dr 1.2192 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.7018 0
+$EndPAD
+$PAD
+Sh "1" O 1.30048 2.49936 0 0 0
+Dr 1.2192 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.4036 0
+$EndPAD
+$SHAPE3D
+Na "Dc_Dc_Regulators\\Switching\\3D_View\\LM2576_TO220-5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LM2576_TO220_5_Simple
+$MODULE TK65600B
+Po 0 0 0 15 51561EA3 00000000 ~~
+Li TK65600B
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.11 0.3 0.3 0 0.075 N V 21 N "TK65600B"
+T1 0 -1.59 0.3 0.3 0 0.075 N I 21 N "VAL**"
+DS -0.75 -0.63 -0.64 -0.74 0.1 21
+DS 0.75 -0.75 -0.75 -0.75 0.1 21
+DS -0.75 -0.75 -0.75 0.75 0.1 21
+DS -0.75 0.75 0.75 0.75 0.1 21
+DS 0.75 0.75 0.75 -0.75 0.1 21
+$PAD
+Sh "A1" C 0.3 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 -0.5
+.SolderMask 0.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "A2" C 0.3 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.5
+.SolderMask 0.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "A3" C 0.3 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 -0.5
+.SolderMask 0.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "B1" C 0.3 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 0
+.SolderMask 0.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "B3" C 0.3 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 0
+.SolderMask 0.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "C1" C 0.3 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 0.5
+.SolderMask 0.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "C2" C 0.3 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.5
+.SolderMask 0.05
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "C3" C 0.3 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 0.5
+.SolderMask 0.05
+.LocalClearance 0.1
+$EndPAD
+$SHAPE3D
+Na "Dc_Dc_Regulators/Switching/3D_View/TK65600B_BGA.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE TK65600B
+$MODULE to220-5
+Po 0 0 0 15 4B90E341 00000000 ~~
+Li to220-5
+Cd TO220, 5pins
+Sc 0
+AR 
+Op 0 0 0
+T0 0 4.318 1.524 1.524 0 0.3048 N V 21 N "TO220-5"
+T1 0 -4.318 1.524 1.524 0 0.3048 N V 21 N "Q***"
+DS -5.08 -2.032 5.08 -2.032 0.254 21
+DS -5.08 -1.27 -5.08 2.54 0.254 21
+DS -5.08 2.54 5.08 2.54 0.254 21
+DS 5.08 2.54 5.08 -2.54 0.254 21
+DS 5.08 -2.54 -5.08 -2.54 0.254 21
+DS -5.08 -2.54 -5.08 -1.27 0.254 21
+$PAD
+Sh "1" O 1.30048 2.49936 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.4036 0
+$EndPAD
+$PAD
+Sh "2" O 1.30048 2.49936 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.7018 0
+$EndPAD
+$PAD
+Sh "3" O 1.30048 2.49936 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" O 1.30048 2.49936 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.7018 0
+$EndPAD
+$PAD
+Sh "5" O 1.30048 2.49936 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.4036 0
+$EndPAD
+$SHAPE3D
+Na "walter/to/to220-5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE to220-5
+$EndLIBRARY

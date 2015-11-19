@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L5973d
+D 2.5A switch step down switching regulator
+K Regulator
+F Dc_Dc_Regulators/Switching/Components_Documentation/L5973d.pdf
+$ENDCMP
+#
+$CMP LM2575
+D 1.0A, Input 4.75-40V, Step-Down Switching Regulator
+K Regulator
+F Dc_Dc_Regulators/Switching/Components_Documentation/LM2575T.pdf
+$ENDCMP
+#
+$CMP LM2576
+D 3.0A, Input 40V, Step-Down Switching Regulator
+K Regulator
+F Dc_Dc_Regulators/Switching/Components_Documentation/LM2576-D.PDF
+$ENDCMP
+#
+$CMP TK65600B
+D TK65600B Inductive White Led Driver With synchronous Rectifier
+K Switching Regulator Step-Up
+F Dc_Dc_Regulators/Switching/Components_Documentation/Tk65600b.pdf
+$ENDCMP
+#
+#End Doc Library

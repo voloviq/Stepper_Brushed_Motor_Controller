@@ -1,0 +1,126 @@
+PCBNEW-LibModule-V1  nie, 8 wrz 2013, 12:48:27
+# encoding utf-8
+Units mm
+$INDEX
+100nF_250V_WIMA
+100nF_630V_Axial_diameter_10mm
+470nF_63V_WIMA
+$EndINDEX
+$MODULE 100nF_250V_WIMA
+Po 0 0 0 15 51C5AB38 00000000 ~~
+Li 100nF_250V_WIMA
+Cd Discrete Capacitor WIMA 100nF/250V
+Kw Capacitor
+Sc 0
+AR 
+Op 0 0 0
+T0 0 3.65 1.016 1.016 0 0.2032 N V 21 N "100nF_250V_WIMA"
+T1 0 -1.55 1.016 1.016 0 0.2032 N I 21 N "V***"
+DS -3.59918 -1.50114 -2.4003 -2.70002 0.3048 21
+DS 3.59918 0 3.59918 -2.70002 0.3048 21
+DS 3.59918 -2.70002 -3.59918 -2.70002 0.3048 21
+DS -3.59918 -2.70002 -3.59918 0 0.3048 21
+DS -3.59918 0 -3.59918 2.70002 0.3048 21
+DS -3.59918 2.70002 3.59918 2.70002 0.3048 21
+DS 3.59918 2.70002 3.59918 0 0.3048 21
+$PAD
+Sh "1" C 1.6 1.6 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.49936 0
+$EndPAD
+$PAD
+Sh "2" C 1.6 1.6 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.49936 0
+$EndPAD
+$SHAPE3D
+Na "Capacitors/Discrete_Metalized_Polyester/Discrete_Metalized_Polyester/100nF_250V_WIMA_RED.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 100nF_250V_WIMA
+$MODULE 100nF_630V_Axial_diameter_10mm
+Po 0 0 0 15 52279B05 00000000 ~~
+Li 100nF_630V_Axial_diameter_10mm
+Cd 100nF_630V_Axial
+Kw Capacitor_Axial
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -9.5 1.27 1.27 0 0.254 N V 21 N "100nF_630V_Axial_diameter_10mm"
+T1 0 -7.25 1.27 1.27 0 0.254 N I 21 N "VAL**"
+DS 1 0 9 0 0.305 21
+DS 1 -2.5 1 2.5 0.305 21
+DS -2 0 -1 0 0.305 21
+DS -1 -2.5 -1 2.5 0.305 21
+DS -9 0 -2 0 0.305 21
+DS -9.7 0 -9.8 0 0.305 21
+DS -9 0 -9.7 0 0.305 21
+DS 9 0 9.8 0 0.305 21
+DS 9 -5 -9 -5 0.305 21
+DS -9 -5 -9 5 0.305 21
+DS -9 5 9 5 0.305 21
+DS 9 5 9 -5 0.305 21
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.25 0
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.25 0
+$EndPAD
+$SHAPE3D
+Na "Capacitors/Discrete_Metalized_Polyester/Discrete_Metalized_Polyester/100nF_630V_Axial_diameter_10mm.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 100nF_630V_Axial_diameter_10mm
+$MODULE 470nF_63V_WIMA
+Po 0 0 0 15 5228E95F 00000000 ~~
+Li 470nF_63V_WIMA
+Cd Discrete Capacitor WIMA 470nF/63V
+Kw Capacitor
+Sc 0
+AR 
+Op 0 0 0
+T0 0 3.2 1.016 1.016 0 0.2032 N V 21 N "470nF_63V_WIMA"
+T1 0 -3.1 1.016 1.016 0 0.2032 N I 21 N "V***"
+DS -3.6 -1.1 -2.5 -2.2 0.305 21
+DS 3.6 -2.25 -3.6 -2.25 0.305 21
+DS -3.6 -2.25 -3.6 2.25 0.305 21
+DS -3.6 2.25 3.6 2.25 0.305 21
+DS 3.6 2.25 3.6 -2.25 0.305 21
+$PAD
+Sh "1" C 1.6 1.6 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.49936 0
+$EndPAD
+$PAD
+Sh "2" C 1.6 1.6 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.49936 0
+$EndPAD
+$SHAPE3D
+Na "Capacitors/Discrete_Metalized_Polyester/Discrete_Metalized_Polyester/470nF_63V_WIMA_RED.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 470nF_63V_WIMA
+$EndLIBRARY

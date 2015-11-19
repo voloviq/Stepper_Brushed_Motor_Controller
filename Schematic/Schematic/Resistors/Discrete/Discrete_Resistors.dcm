@@ -1,0 +1,117 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10k_10mm
+D 4k7 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 110R_10mm
+D 110R 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 15k_10mm
+D 15k 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 1Meg_10mm
+D 1Meg 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 1k8_10mm
+D 1k8 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 1k_10mm
+D 1k 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 22R_15x5_5mm
+D 22W 5W High Surge Axial Cemented Wirewound Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Vishay_Power_Resistor_z300-c.pdf
+$ENDCMP
+#
+$CMP 270R_10mm
+D 270R 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 300R_10mm
+D 300R 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 30k_10mm
+D 30k 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 33k_10mm
+D 33k 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 3k3_10mm
+D 3k3 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 400k_10mm
+D 400k 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 470R_10mm
+D 470R 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 47k_10mm
+D 47k 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 4k7_10mm
+D 4k7 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 51k_10mm
+D 51k 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP 68k_10mm
+D 68k 0W25 Carbon Film Fixed Resistor
+K Resistor
+F Resistors/Discrete/Components_Documentation/Resistors_0W25.pdf
+$ENDCMP
+#
+$CMP RKT6V-10K
+D Potentiometer RKT6V-10K SR PASSIVES
+K Potentiometer
+F Resistors/Discrete/Components_Documentation/SR_PASSIVES_RKT6V-xK.pdf
+$ENDCMP
+#
+#End Doc Library

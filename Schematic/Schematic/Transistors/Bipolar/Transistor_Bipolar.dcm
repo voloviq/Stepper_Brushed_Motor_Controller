@@ -1,0 +1,87 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2SB772
+D PNP SILICON POWER TRANSiSTOR
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/2SB772.pdf
+$ENDCMP
+#
+$CMP BC807-16
+D 45 V, 500 mA PNP general-purpose transistors
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/BC807_BC807W_BC327.pdf
+$ENDCMP
+#
+$CMP BC846
+D NPN Epitaxial Silicon Transistor
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/BC84x(6_7).pdf
+$ENDCMP
+#
+$CMP BC847
+D NPN Epitaxial Silicon Transistor
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/BC84x(6_7).pdf
+$ENDCMP
+#
+$CMP BC856
+D PNP General Purpose Transistor
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/BC85x(6_7_8).pdf
+$ENDCMP
+#
+$CMP BC857
+D PNP General Purpose Transistor
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/BC85x(6_7_8).pdf
+$ENDCMP
+#
+$CMP BCP56-16
+D NPN Medium Power Silicon Transistor, 80V, 1A
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/BCP56_BCX56_BC56PA.pdf
+$ENDCMP
+#
+$CMP BCW68
+D PNP General Purpose Transistor Uce=45V, Ic=800mA
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/bcw67_bcw68.pdf
+$ENDCMP
+#
+$CMP BDP947
+D Silicon NPN Transistor 3A/45V
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/bdp947_bdp949_bdp953.pdf
+$ENDCMP
+#
+$CMP BFN24
+D NPN Silicon High-Voltage Transistors
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/Bfn24_Bfn26.pdf
+$ENDCMP
+#
+$CMP BST50_51_52
+D NPN Darlington transistors
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/BST50_51_52.pdf
+$ENDCMP
+#
+$CMP KSD882
+D NPN Epitaxial Silicon Transistor
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/KSD882.pdf
+$ENDCMP
+#
+$CMP MBT3906
+D Dual PNP General Purpose Transistor
+K Bipolar Transistor
+F Transistors/Bipolar/Components_Documentation/mbt3906.pdf
+$ENDCMP
+#
+$CMP ULN2803A
+D Darlington Transistor Array
+K Transistor Array
+F Transistors/Bipolar/Components_Documentation/ULN2803A.pdf
+$ENDCMP
+#
+#End Doc Library

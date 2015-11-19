@@ -1,0 +1,201 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N5908
+D 1500 Watt Mosorb Zener Transient Voltage Suppressors (Unidirectional)
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/1N5908-D.pdf
+$ENDCMP
+#
+$CMP BAS386
+D BAS386 Micro Melf Small Signal Schottky Diode
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/bas386.pdf
+$ENDCMP
+#
+$CMP BYM13-40
+D Vishay Surface Mount Schottky Barrier Rectifier 40V blocking and repetitive peak reverse voltage
+K Schottky Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/BYMxx-x_Schottky_Barrier_Rectifier.pdf
+$ENDCMP
+#
+$CMP BZM55C4V7
+D BZM55C4V7 500mW, Small Signal Zener Diode
+K Diode Zener
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/bzm55-Series.pdf
+$ENDCMP
+#
+$CMP BZM55C5V6
+D BZM55C5V6 500mW, Small Signal Zener Diode
+K Diode Zener
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/bzm55-Series.pdf
+$ENDCMP
+#
+$CMP BZM55C6V2
+D BZM55C6V2 500mW, Small Signal Zener Diode
+K Diode Zener
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/bzm55-Series.pdf
+$ENDCMP
+#
+$CMP BZX55C5V6
+D BZX55C5V6 500mW, Glass Silicon Zener Diode
+K Diode Zener
+F Components_Documentation/BZX55Cx_DO-35.pdf
+$ENDCMP
+#
+$CMP KBU6M
+D Single - Phase Silicon Bridge 4.0A/6.0A/8.0A
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/KBU(4_6_8)M.pdf
+$ENDCMP
+#
+$CMP LEDP2-CWD-120
+D HL-A-3528H308W-S1-13 White Warm Led Diode with wxtremely wide viewing angle
+K Led Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/LEDP2-CWD-120.pdf
+$ENDCMP
+#
+$CMP LED_5A9EGW_12.3SF
+D Kingbright Double Led Diode - Red / Green
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/L-5A9EGW-12.3SF.pdf
+$ENDCMP
+#
+$CMP LED_HC5-405AOR3AGCC
+D HUEY JANN Double Led Diode - Red / Green
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/HC5-405AOR3AGCC.pdf
+$ENDCMP
+#
+$CMP LED_HTLB2_SMD
+D Top LEDs - SMD Diode 
+K Led Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/HTLB2-45SOR.pdf
+$ENDCMP
+#
+$CMP LED_KP-2012HD
+D SMD Led diode Bright Red Diffused (GaP) 1.25mcd at 20mA 120 Angle
+K Led Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/KP2012xxx.pdf
+$ENDCMP
+#
+$CMP LED_KP-2012SGD
+D SMD Led diode Bright Green Diffused (GaP) 12.5mcd at 20mA 120 Angle
+K Led Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/KP2012xxx.pdf
+$ENDCMP
+#
+$CMP LED_KP-2012YD
+D SMD Led diode Bright Yellow Diffused (GaAsP/GaP) 8mcd at 20mA 120 Angle
+K Led Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/KP2012xxx.pdf
+$ENDCMP
+#
+$CMP LED_L_53GT
+D Kingbright Led Diode - Green
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/L53xx.pdf
+$ENDCMP
+#
+$CMP LED_L_53IT
+D Kingbright Led Diode - Red Transparent
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/L53xx.pdf
+$ENDCMP
+#
+$CMP MCL4148
+D MCL4148 Micro Melf Switching Diode
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/mcl4148.pdf
+$ENDCMP
+#
+$CMP P6SMBJ30CA
+D 36V9 Two Directions Transient Voltage Suppression Diode, Surface Mount - 600W > SMAJ series
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMBJ.pdf
+$ENDCMP
+#
+$CMP SM4006
+D Surface Mount Glass Passivated Junction Rectifier Reverse Voltage 50 - 1000V, Forward Current 1.0A
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/SM4001-7.pdf
+$ENDCMP
+#
+$CMP SMAJ18CA
+D 18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W > SMAJ series
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf
+$ENDCMP
+#
+$CMP SMAJ33CA-LF
+D 33V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W > SMAJ series
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf
+$ENDCMP
+#
+$CMP SMAJ5.0CA
+D 5.0V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W > SMAJ series
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf
+$ENDCMP
+#
+$CMP SMAJ7.5CA
+D 7.5V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W > SMAJ series
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf
+$ENDCMP
+#
+$CMP SMBJ-33A
+D 33V Transient Voltage Suppression Diode, Surface Mount - 600W > SMBJ series
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMBJ.pdf
+$ENDCMP
+#
+$CMP SMBJ-5.0A
+D 5V Transient Voltage Suppression Diode, Surface Mount - 600W > SMBJ series
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMBJ.pdf
+$ENDCMP
+#
+$CMP SMBJ3V3
+D 3V3 Surface Mount TransZorb Transient Voltage Supperssors
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/smbj3v3.pdf
+$ENDCMP
+#
+$CMP SRV05-4
+D Low Capacitance TVS Diode Array
+K TVS Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/SRV05-4.pdf
+$ENDCMP
+#
+$CMP SS14
+D Schottky Rectifiers
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/SS12 - S100.pdf
+$ENDCMP
+#
+$CMP SS32
+D Schottky Rectifier 20V / 3A
+K Diode Schottky
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/SS32_S310.pdf
+$ENDCMP
+#
+$CMP TL431
+D Programmable Shunt Regulator
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/TL431A.pdf
+$ENDCMP
+#
+$CMP TMMBAT43
+D Small Signal Schottky Diodes
+K Diode
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/TMMBAT42_43.pdf
+$ENDCMP
+#
+$CMP db101s-107s
+D Single-Phase Surface Mount Bridge Rectifier Current -1.0 Ampere Voltage Range - 50 to 1000 Volts
+K Rectifier
+F D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/db101s-107s-1.pdf
+$ENDCMP
+#
+#End Doc Library

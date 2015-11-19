@@ -1,0 +1,177 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0R_0805
+D SMD Resistor 0Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 100R_0805
+D SMD Resistor 100Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 10K_0805
+D SMD Resistor 10kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 110K_0805
+D SMD Resistor 110kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 120K_0805
+D SMD Resistor 120KOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 150R_0805
+D SMD Resistor 150Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 1K4_0805
+D SMD Resistor 1k4Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 1K8_0805
+D SMD Resistor 1k8Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 1K_0805
+D SMD Resistor 1kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 20K_0805
+D SMD Resistor 20kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 2K2_0805
+D SMD Resistor 2k2Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 2K6_0805
+D SMD Resistor 2k6Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 2K7_0805
+D SMD Resistor 2k7Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 330R_0805
+D SMD Resistor 330Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 33R_0805
+D SMD Resistor 33Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 360K_0805
+D SMD Resistor 360kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 390K_0805
+D SMD Resistor 390kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 430R_0805
+D SMD Resistor 430Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 43K_0805
+D SMD Resistor 43kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 470R_0805
+D SMD Resistor 470Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 47K_0805
+D SMD Resistor 47kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 4K7_0805
+D SMD Resistor 4k7Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 5K6_0805
+D SMD Resistor 5k6Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 60R_0805
+D SMD Resistor 60Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 6K8_0805
+D SMD Resistor 6K8Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 6R8_0805
+D SMD Resistor 6.8Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 750R_0805
+D SMD Resistor 750Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 82K_0805
+D SMD Resistor 82KOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+$CMP 8K2_0805
+D SMD Resistor 8k2Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_0805/Components_Documentation/Vishay_Resistors_SM0805.pdf
+$ENDCMP
+#
+#End Doc Library

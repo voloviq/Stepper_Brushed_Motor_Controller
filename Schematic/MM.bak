@@ -1,0 +1,38 @@
+EESchema Schematic File Version 2
+LIBS:74xx
+LIBS:Atmel_Microcontrollers
+LIBS:Switching_Regulators
+LIBS:Linear_Regulators
+LIBS:Diodes
+LIBS:H_Bridges_Drivers
+LIBS:Discrete_Resistors
+LIBS:Resonators
+LIBS:Capacitors_Discrete_Ceramic
+LIBS:Capacitors_Discrete_Electrolytic
+LIBS:Motors_Controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 5
+Title "Motors Controller"
+Date "2015-11-18"
+Rev "V1.0"
+Comp "VOLOVIQUE"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DRV8834 U?
+U 1 1 564CB8F5
+P 4550 3400
+F 0 "U?" H 4550 4800 60  0000 C CNN
+F 1 "DRV8834" H 4550 4700 60  0000 C CNN
+F 2 "" H 4500 3350 60  0000 C CNN
+F 3 "" H 4500 3350 60  0000 C CNN
+	1    4550 3400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

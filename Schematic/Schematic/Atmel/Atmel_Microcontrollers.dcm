@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA128_QFN64
+D Atmega128 - 8-bit Atmel Microcontroller with 128KBytes In-System Programmable Flash
+K Microcontroller
+F Microcontrollers/Atmel/Components_Documentation/Atmega128.pdf
+$ENDCMP
+#
+$CMP ATXMEGA256A3B-AU_TQFP64
+D 8/16-bit AVR XMEGA A3B Microcontroller
+K Microcontroller
+F Microcontrollers/Atmel/Components_Documentation/Atmel_Atxmega256A3B-AU.pdf
+$ENDCMP
+#
+#End Doc Library

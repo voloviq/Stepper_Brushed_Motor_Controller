@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1000uF_10V_Chengx
+D Electrolytic Capacitor 1000uF/10V (CD288H Series)
+K Electrolytic Discrete Capacitor
+F Capacitors/Discrete_Electrolytic/Components_Documentation/CD288H_Series.pdf
+$ENDCMP
+#
+$CMP 1000uF_6V3_KRG
+D 1000uF/6V3/KRG_Series - Miniature Aluminium Electrolytic Capacitor (Low Profile)
+K Electrolytic Discrete Capacitor
+F Discrete_Electrolytic/Components_Documentation/al-krg-e-140701-514707.pdf
+$ENDCMP
+#
+$CMP 1000uF_6V3_KRG_Vertical
+D 1000uF/6V3/KRG_Series - Miniature Aluminium Electrolytic Capacitor (Low Profile)
+K Electrolytic Discrete Capacitor
+F Discrete_Electrolytic/Components_Documentation/al-krg-e-140701-514707.pdf
+$ENDCMP
+#
+$CMP 100uF_50V_Cd81_Rx_Ver_Horiz
+D 100uF/50V CD81 RX Aluminium Electrolytic Capacitor fi8xlen12mm
+K Electrolytic Discrete Capacitor
+F Capacitors/Discrete_Electrolytic/Components_Documentation/Fenghua_Aluminimu_Electrolytic_Capacitor_CD81_Rx.pdf
+$ENDCMP
+#
+$CMP 100uF_50V_Cd81_Rx_Vertical
+D 100uF/50V CD81 RX Aluminium Electrolytic Capacitor fi8xlen12mm
+K Electrolytic Discrete Capacitor
+F Capacitors/Discrete_Electrolytic/Components_Documentation/Fenghua_Aluminimu_Electrolytic_Capacitor_CD81_Rx.pdf
+$ENDCMP
+#
+$CMP 100uF_63V_Cd81_Rx_Vertical
+D 100uF/63V CD81 RX Aluminium Electrolytic Capacitor
+K Electrolytic Discrete Capacitor
+F Discrete_Electrolytic/Components_Documentation/Fenghua_Aluminimu_Electrolytic_Capacitor_CD81_Rx.pdf
+$ENDCMP
+#
+$CMP 220uF_50V_Cd81_Rx_Vertical
+D 220uF/50V CD81 RX Aluminium Electrolytic Capacitor
+K Electrolytic Discrete Capacitor
+F Discrete_Electrolytic/Components_Documentation/Fenghua_Aluminimu_Electrolytic_Capacitor_CD81_Rx.pdf
+$ENDCMP
+#
+$CMP 220uF_63V_Cd81_Rx_Vertical
+D 220uF/63V CD81 RX Aluminium Electrolytic Capacitor
+K Electrolytic Discrete Capacitor
+F Discrete_Electrolytic/Components_Documentation/Fenghua_Aluminimu_Electrolytic_Capacitor_CD81_Rx.pdf
+$ENDCMP
+#
+$CMP 470uF_10V_Cd81_Rx_Vertical
+D 470uF/10V CD81 RX Aluminium Electrolytic Capacitor
+K Electrolytic Discrete Capacitor
+F Discrete_Electrolytic/Components_Documentation/Fenghua_Aluminimu_Electrolytic_Capacitor_CD81_Rx.pdf
+$ENDCMP
+#
+#End Doc Library

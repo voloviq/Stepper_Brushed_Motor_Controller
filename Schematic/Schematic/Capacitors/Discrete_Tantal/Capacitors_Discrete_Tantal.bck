@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1uF_35V_2_54mm
+D 1uF/35V with 2.54mm pin raster Tantalum dipped / radial - polar
+K Tantalum Capacitor
+F Capacitors/Discrete_Tantal/Components_Documentation/Kemet_Discrete_Tantal.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,303 @@
+PCBNEW-LibModule-V1  śro, 4 wrz 2013, 17:39:36
+# encoding utf-8
+Units mm
+$INDEX
+47kx4_Resistor_Network
+47kx5_Resistor_Network
+47kx8_Resistor_Network
+4k7x8_Resistor_Network
+$EndINDEX
+$MODULE 47kx4_Resistor_Network
+Po 0 0 0 15 5224F586 00000000 ~~
+Li 47kx4_Resistor_Network
+Cd Resistor Network 4 Section
+Kw Resistor
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "R_4_Section"
+T1 0.24 -3.56 1.016 0.889 1800 0.2032 N I 21 N "RN***"
+DS -6.35 1.27 6.35 1.27 0.305 21
+DS 6.35 -1.27 -6.35 -1.27 0.305 21
+DS -3.81 -1.27 -3.81 1.27 0.3048 21
+DS 6.35 -1.27 6.35 1.27 0.3048 21
+DS -6.35 1.27 -6.35 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$SHAPE3D
+Na "Resistors/Discrete_Resistors_Network/3D_View/47kx4_Resistor_Network.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 47kx4_Resistor_Network
+$MODULE 47kx5_Resistor_Network
+Po 0 0 0 15 52275326 00000000 ~~
+Li 47kx5_Resistor_Network
+Cd Resistor Network 5 Section
+Kw Resistor
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "R_5_Section"
+T1 0.24 -3.56 1.016 0.889 1800 0.2032 N I 21 N "RN***"
+DS 7.62 -1.27 7.62 1.27 0.3048 21
+DS 7.62 -1.27 -5.08 -1.27 0.305 21
+DS -5.08 1.27 7.62 1.27 0.305 21
+DS -7.62 1.27 5.08 1.27 0.305 21
+DS 5.08 -1.27 -7.62 -1.27 0.305 21
+DS -5.08 -1.27 -5.08 1.27 0.3048 21
+DS -7.62 1.27 -7.62 -1.27 0.3048 21
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$SHAPE3D
+Na "Resistors/Discrete_Resistors_Network/3D_View/47kx5_Resistor_Network.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 47kx5_Resistor_Network
+$MODULE 47kx8_Resistor_Network
+Po 0 0 0 15 51C74751 00000000 ~~
+Li 47kx8_Resistor_Network
+Cd Resistor Network 8 Section
+Kw Resistor
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "R_8_Section"
+T1 0.24 -3.56 1.016 0.889 1800 0.2032 N I 21 N "RN***"
+DS -8.89 -1.27 -8.89 1.27 0.3048 21
+DS -11.43 -1.27 11.43 -1.27 0.3048 21
+DS 11.43 -1.27 11.43 1.27 0.3048 21
+DS 11.43 1.27 -11.43 1.27 0.3048 21
+DS -11.43 1.27 -11.43 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$SHAPE3D
+Na "Resistors/Discrete_Resistors_Network/3D_View/47kx8_Resistor_Network.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 47kx8_Resistor_Network
+$MODULE 4k7x8_Resistor_Network
+Po 0 0 0 15 51C74751 00000000 ~~
+Li 4k7x8_Resistor_Network
+Cd Resistor Network 8 Section
+Kw Resistor
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N V 21 N "R_8_Section"
+T1 0.24 -3.56 1.016 0.889 1800 0.2032 N I 21 N "RN***"
+DS -8.89 -1.27 -8.89 1.27 0.3048 21
+DS -11.43 -1.27 11.43 -1.27 0.3048 21
+DS 11.43 -1.27 11.43 1.27 0.3048 21
+DS 11.43 1.27 -11.43 1.27 0.3048 21
+DS -11.43 1.27 -11.43 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "2" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "3" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "4" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "5" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "7" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "8" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "9" O 1.524 2.19964 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$SHAPE3D
+Na "Resistors/Discrete_Resistors_Network/3D_View/4k7x8_Resistor_Network.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE 4k7x8_Resistor_Network
+$EndLIBRARY

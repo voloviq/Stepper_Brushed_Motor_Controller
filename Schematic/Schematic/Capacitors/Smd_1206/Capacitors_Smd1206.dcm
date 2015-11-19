@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100nF_1206
+D 100nF / 50V C0G (NP0) Dielectric
+K SMD Capacitor
+F Smd_1206/Components_Documentation/AVX_Capacitors_SM1206.pdf
+$ENDCMP
+#
+$CMP 220pF_1206
+D 220pF / 50V C0G (NP0) Dielectric
+K SMD Capacitor
+F Smd_1206/Components_Documentation/AVX_Capacitors_SM1206.pdf
+$ENDCMP
+#
+$CMP 22nF_1206
+D 22nF / 50V C0G (NP0) Dielectric
+K SMD Capacitor
+F D:/Git_Kicad_Library/Schematic/Capacitors/Smd_1206/Components_Documentation/AVX_Capacitors_SM1206.pdf
+$ENDCMP
+#
+$CMP CL31B100nF
+D 10uF/16V  X7R  ±10%  -55÷125°C 
+K SMD Capacitor
+F Smd_1206/Components_Documentation/CL10B104KB8NNNC-Samsung-datasheet-8324245.pdf
+$ENDCMP
+#
+#End Doc Library

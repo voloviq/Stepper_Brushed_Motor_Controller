@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 47kx4_Res_Net_Ser_Connected
+D Resistor 47kx4 Netowrk, 4600X Series - Thick Film Conformal SIPs
+K Resistor
+F Resistors/Discrete_Resistor_Network/Components_Documentation/Bourns_Resistor_Network.pdf
+$ENDCMP
+#
+$CMP 47KX8_RES_NET_SER_CONNECTED
+D Resistor Netowrk, 4600X Series - Thick Film Conformal SIPs
+K Resistor
+F Resistors/Discrete_Resistor_Network/Components_Documentation/Bourns_Resistor_Network.pdf
+$ENDCMP
+#
+$CMP 4K7X8_RES_NET_SER_CONNECTED
+D Resistor Netowrk, 4600X Series - Thick Film Conformal SIPs
+K Resistor
+F Resistors/Discrete_Resistor_Network/Components_Documentation/Bourns_Resistor_Network.pdf
+$ENDCMP
+#
+#End Doc Library

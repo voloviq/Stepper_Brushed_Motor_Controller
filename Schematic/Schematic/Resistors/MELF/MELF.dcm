@@ -1,0 +1,129 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100R_MELF
+D SMD Resistor 100Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 100k_MELF
+D SMD Resistor 100kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 10k_MELF
+D SMD Resistor 10kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 1M_MELF
+D SMD Resistor 1MOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 1k5_MELF
+D SMD Resistor 1k5Ohm 0.25W
+K SMD Resistor
+F Resistors/MELF/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 1k_MELF
+D SMD Resistor 1kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 22R_MELF
+D SMD Resistor 22Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 240R_MELF
+D SMD Resistor 240Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 27k_MELF
+D SMD Resistor 27kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 2k2_MELF
+D SMD Resistor 2k2Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 330R_MELF
+D SMD Resistor 330Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 390R_MELF
+D SMD Resistor 390Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 470R_MELF
+D SMD Resistor 470Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 47R_MELF
+D SMD Resistor 47Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 47k_MELF
+D SMD Resistor 47kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 4k7_MELF
+D SMD Resistor 4k7Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 4k_MELF
+D SMD Resistor 4kOhm 0.25W
+K SMD Resistor
+F Resistors/MELF/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 56k_MELF
+D SMD Resistor 56kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 630R_MELF
+D SMD Resistor 630Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 8k2_MELF
+D SMD Resistor 8k2Ohm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+$CMP 9k_MELF
+D SMD Resistor 9kOhm 0.25W
+K SMD Resistor
+F Resistors/Smd_1206/Components_Documentation/Vishay_Melf_Resistors.pdf
+$ENDCMP
+#
+#End Doc Library

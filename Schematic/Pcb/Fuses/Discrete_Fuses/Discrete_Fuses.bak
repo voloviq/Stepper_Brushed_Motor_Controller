@@ -1,0 +1,40 @@
+PCBNEW-LibModule-V1  Thu 24 Jan 2013 22:33:36 CET
+# encoding utf-8
+$INDEX
+Discrete_Fuse_4A_250V_Rectangle_7x4_5mm
+$EndINDEX
+$MODULE Discrete_Fuse_4A_250V_Rectangle_7x4_5mm
+Po 0 0 0 15 50CF2ED3 00000000 ~~
+Li Discrete_Fuse_4A_250V_Rectangle_7x4_5mm
+Kw Discrete_Fuse_4A_250V_Rectangle_7x4_5mm
+Sc 00000000
+AR
+Op 0 0 0
+T0 0 -2283 600 600 0 120 N V 21 N "cnp_7x4.5mm"
+T1 0 -1339 600 600 0 120 N I 21 N "VAL**"
+DS 1500 880 1500 -880 98 21
+DS -1500 880 -1500 -880 98 21
+DS -1500 -880 1500 -880 100 21
+DS 1500 880 -1500 880 100 21
+$PAD
+Sh "1" C 787 787 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" C 787 787 0 0 0
+Dr 315 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 0
+$EndPAD
+$SHAPE3D
+Na "Fuses\\Discrete_Fuses\\3D_View\\Discrete_Fuse_4A_250V_Rectangle_7x4_5mm.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  Discrete_Fuse_4A_250V_Rectangle_7x4_5mm
+$EndLIBRARY

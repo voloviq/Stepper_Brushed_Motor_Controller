@@ -1,0 +1,197 @@
+
+Atmega16_Motor_Controller.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000d2  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  00000126  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .comment      00000030  00000000  00000000  00000126  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000158  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000048  00000000  00000000  00000194  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   0000019b  00000000  00000000  000001dc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 0000012b  00000000  00000000  00000377  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   0000012f  00000000  00000000  000004a2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000058  00000000  00000000  000005d4  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    0000019a  00000000  00000000  0000062c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    000000da  00000000  00000000  000007c6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000028  00000000  00000000  000008a0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   8:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  10:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  14:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  18:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  1c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  20:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  24:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  28:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  2c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  30:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  34:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  38:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  3c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  40:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  44:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  48:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  4c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  50:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d4 e0       	ldi	r29, 0x04	; 4
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+  60:	0e 94 3d 00 	call	0x7a	; 0x7a <main>
+  64:	0c 94 67 00 	jmp	0xce	; 0xce <_exit>
+
+00000068 <__bad_interrupt>:
+  68:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000006c <init_PWM>:
+		PWM Output  = Non Inverted
+
+	 */
+
+
+   TCCR0|=(1<<WGM00)|(1<<WGM01)|(1<<COM01)|(0<<CS02)|(1<<CS01)|(0<<CS00);
+  6c:	83 b7       	in	r24, 0x33	; 51
+  6e:	8a 66       	ori	r24, 0x6A	; 106
+  70:	83 bf       	out	0x33, r24	; 51
+
+   //Set OC0 PIN as output. It is PB3 on ATmega16 ATmega32
+
+   DDRB|=(1<<PB3);
+  72:	bb 9a       	sbi	0x17, 3	; 23
+  74:	08 95       	ret
+
+00000076 <set_PWM_output>:
+
+
+
+void set_PWM_output(unsigned char duty)
+{
+   OCR0=duty;
+  76:	8c bf       	out	0x3c, r24	; 60
+  78:	08 95       	ret
+
+0000007a <main>:
+
+	unsigned char pwm = 0;
+	unsigned long j = 0;
+	unsigned char direction = 0;
+
+	init_PWM();
+  7a:	0e 94 36 00 	call	0x6c	; 0x6c <init_PWM>
+
+	set_PWM_output(20);
+  7e:	84 e1       	ldi	r24, 0x14	; 20
+  80:	0e 94 3b 00 	call	0x76	; 0x76 <set_PWM_output>
+int main(void)
+{
+
+	unsigned char pwm = 0;
+	unsigned long j = 0;
+	unsigned char direction = 0;
+  84:	c0 e0       	ldi	r28, 0x00	; 0
+
+
+int main(void)
+{
+
+	unsigned char pwm = 0;
+  86:	80 e0       	ldi	r24, 0x00	; 0
+	set_PWM_output(20);
+
+	while(1)
+	{
+
+		if( pwm == 255 && direction == 0)
+  88:	8f 3f       	cpi	r24, 0xFF	; 255
+  8a:	c1 f0       	breq	.+48     	; 0xbc <main+0x42>
+		direction = 1;
+
+		if (pwm == 0 && direction == 1)
+  8c:	81 11       	cpse	r24, r1
+  8e:	02 c0       	rjmp	.+4      	; 0x94 <main+0x1a>
+  90:	c1 30       	cpi	r28, 0x01	; 1
+  92:	11 f0       	breq	.+4      	; 0x98 <main+0x1e>
+		direction = 0;
+
+		if(direction)
+  94:	c1 11       	cpse	r28, r1
+  96:	15 c0       	rjmp	.+42     	; 0xc2 <main+0x48>
+		set_PWM_output(pwm--);
+		else
+		set_PWM_output(pwm++);
+  98:	c1 e0       	ldi	r28, 0x01	; 1
+  9a:	c8 0f       	add	r28, r24
+  9c:	0e 94 3b 00 	call	0x76	; 0x76 <set_PWM_output>
+  a0:	8c 2f       	mov	r24, r28
+  a2:	c0 e0       	ldi	r28, 0x00	; 0
+  a4:	40 e9       	ldi	r20, 0x90	; 144
+  a6:	5f e5       	ldi	r21, 0x5F	; 95
+  a8:	61 e0       	ldi	r22, 0x01	; 1
+  aa:	70 e0       	ldi	r23, 0x00	; 0
+
+		for(j=0; j<90000; j++)
+		asm volatile("nop");
+  ac:	00 00       	nop
+  ae:	41 50       	subi	r20, 0x01	; 1
+  b0:	51 09       	sbc	r21, r1
+  b2:	61 09       	sbc	r22, r1
+  b4:	71 09       	sbc	r23, r1
+		if(direction)
+		set_PWM_output(pwm--);
+		else
+		set_PWM_output(pwm++);
+
+		for(j=0; j<90000; j++)
+  b6:	d1 f7       	brne	.-12     	; 0xac <main+0x32>
+	set_PWM_output(20);
+
+	while(1)
+	{
+
+		if( pwm == 255 && direction == 0)
+  b8:	8f 3f       	cpi	r24, 0xFF	; 255
+  ba:	41 f7       	brne	.-48     	; 0x8c <main+0x12>
+  bc:	c1 11       	cpse	r28, r1
+  be:	01 c0       	rjmp	.+2      	; 0xc2 <main+0x48>
+		direction = 1;
+  c0:	c1 e0       	ldi	r28, 0x01	; 1
+
+		if (pwm == 0 && direction == 1)
+		direction = 0;
+
+		if(direction)
+		set_PWM_output(pwm--);
+  c2:	df ef       	ldi	r29, 0xFF	; 255
+  c4:	d8 0f       	add	r29, r24
+  c6:	0e 94 3b 00 	call	0x76	; 0x76 <set_PWM_output>
+  ca:	8d 2f       	mov	r24, r29
+  cc:	eb cf       	rjmp	.-42     	; 0xa4 <main+0x2a>
+
+000000ce <_exit>:
+  ce:	f8 94       	cli
+
+000000d0 <__stop_program>:
+  d0:	ff cf       	rjmp	.-2      	; 0xd0 <__stop_program>

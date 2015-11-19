@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10uF_35V_SMD_Tantal
+D Tantal Capacitor 10uF / 35V AVX 
+K Capacitor
+F Smd_Tantal/Components_Documentation/AVX_Tantal_Capacitors.pdf
+$ENDCMP
+#
+$CMP 1uF_35V_SMD_Tantal
+D Tantal Capacitor 1uF / 35V AVX 
+K Capacitor
+F Smd_Tantal/Components_Documentation/AVX_Tantal_Capacitors.pdf
+$ENDCMP
+#
+$CMP 4u7F_35V_SMD
+D Tantal Capacitor 4u7F / 35V AVX 
+K Capacitor
+F Capacitors/Smd_Tantal/Components_Documentation/AVX_Tantal_Capacitors.pdf
+$ENDCMP
+#
+$CMP 4u7F_35V_SMD_Tantal
+D Tantal Capacitor 4u7F / 35V AVX 
+K Capacitor
+F Capacitors/Smd_Tantal/Components_Documentation/AVX_Tantal_Capacitors.pdf
+$ENDCMP
+#
+#End Doc Library

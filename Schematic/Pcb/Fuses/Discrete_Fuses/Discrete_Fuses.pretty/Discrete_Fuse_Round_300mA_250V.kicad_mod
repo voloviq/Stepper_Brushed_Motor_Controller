@@ -1,0 +1,18 @@
+(module Discrete_Fuse_Round_300mA_250V (layer F.Cu) (tedit 51C75EFD)
+  (descr "Discrete Fuse")
+  (tags Fuse)
+  (fp_text reference Discrete_Fuse_Round_300mA_250V (at 0 5.52) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_text value VAL** (at 0 -6.09) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_circle (center 0 0) (end 4.25 0) (layer F.SilkS) (width 0.381))
+  (pad 1 thru_hole circle (at -2.54 0) (size 1.7 1.7) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.54 0) (size 1.7 1.7) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (model Fuses/Discrete_Fuses/3D_View/Discrete_Fuse_300mA_250V_Round_8_5mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

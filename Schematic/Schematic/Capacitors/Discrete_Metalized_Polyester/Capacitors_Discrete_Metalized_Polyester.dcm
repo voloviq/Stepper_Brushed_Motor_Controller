@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100nF_250V_WIMA
+D 100nF / 250V Metallized Polyester (PET) Capacitor
+K Capacitor
+F Discrete_Metalized_Polyester/Components_Documentation/Wima_MKS_Capacitors.pdf
+$ENDCMP
+#
+$CMP 100nF_630V_WIMA
+D 100nF / 630V WMF Polyester Film Capacitor
+K Capacitor
+F Discrete_Metalized_Polyester/Components_Documentation/WMF6W1K-F.pdf
+$ENDCMP
+#
+$CMP 470nF_63V_WIMA
+D 470nF / 63V WIMA Capacitor - Size (width 7,2x4,4mm, height 9,5mm)
+K Capacitor
+F Discrete_Metalized_Polyester/Components_Documentation/Wima_MKS_Capacitors.pdf
+$ENDCMP
+#
+#End Doc Library

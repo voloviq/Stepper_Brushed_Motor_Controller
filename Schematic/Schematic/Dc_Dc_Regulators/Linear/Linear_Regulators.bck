@@ -1,0 +1,69 @@
+EESchema-DOCLIB  Version 2.0  Date: 2014-01-18 22:37:26
+#
+$CMP APE1117AG-18-HF
+D 1.8V / 1A Low Dropout Positive Voltage Regulators
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/APE1117A.pdf
+$ENDCMP
+#
+$CMP APE1117AG-33-HF
+D 3.3V / 1A Low Dropout Positive Voltage Regulators
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/APE1117A.pdf
+$ENDCMP
+#
+$CMP APE8800-3
+D 300mA Low Drop-out Linear-Regulator(available 1V5, 1V8, 2V5, 2V8, 3V0, 3V3, 3V6)
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/APE8800-3.pdf
+$ENDCMP
+#
+$CMP LM217
+D 1.2V to 37V Voltage regulator
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/LM217_ST.pdf
+$ENDCMP
+#
+$CMP LM7805
+D 5V Positive voltage regulator ICs
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/LM7805_ST.pdf
+$ENDCMP
+#
+$CMP MC78LC33
+D Micropower Voltage Regulator OUT = 3V3 (Max IN =12V)
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/MC78LC00-D.PDF
+$ENDCMP
+#
+$CMP MCP1703T-3302E
+D 3V3 / 250mA Low Dropout Positive Voltage Regulators (Quiescent Current)
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/Mcp1703T_22049a.pdf
+$ENDCMP
+#
+$CMP MCP1755S18
+D 1V8 / 300mA, 16V, High-Performance LDO
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/mcp1755_s.pdf
+$ENDCMP
+#
+$CMP MCP1755S33
+D 3V3 / 300mA, 16V, High-Performance LDO
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/mcp1755_s.pdf
+$ENDCMP
+#
+$CMP MCP1825(S)
+D 3V3 / 500mA, 16V, High-Performance LDO
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/MCP1825S-3302E_DB_22056b.pdf
+$ENDCMP
+#
+$CMP TC1014_15_1185
+D 50mA, 100mA and 150mA CMODS LDOs with Shutdown and Reference Bypass (available 1V8, 2V5, 2V6, 2V7, 2V8, 2V85, 3V0, 3V3, 3V6, 4V0, 5V0)
+K Linear Regulator
+F Dc_Dc_Regulators/Linear/Components_Documentation/TC1014_15_1185_21335e.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0  Date: 2014-01-21 21:37:40
+#
+$CMP ABM8-20.000MHZ-B2_SMD
+D Ultra miniature ceramic SMD crystal - 20MHz - ABM8 series
+K Quartz
+F Resonators/Components_Documentation/Quartz_Small_Package_Smd_abm8.pdf
+$ENDCMP
+#
+$CMP CFPS-39_20MHZ_CRYSTAL
+D The CFPS-39 is 3.3V, ultra minature surface mount oscillator with a HCMOS output
+K Quartz
+F Resonators/Components_Documentation/Cfps-39.pdf
+$ENDCMP
+#
+$CMP CFPS-72_20MHZ_CRYSTAL
+D The CFPS-72 is 3.3V, regular size surface mount oscillator with a HCMOS output
+K Quartz
+F Resonators/Components_Documentation/cfps-72-73.pdf
+$ENDCMP
+#
+$CMP CM309S_10MHZ_CRYSTAL
+D Quartz Crystal Unit 10MHz in rectangular 4 pin package
+K Quartz
+F Resonators/Components_Documentation/Quartz_Citizen_CM309S_10MHz.pdf
+$ENDCMP
+#
+$CMP RESONATOR_16MHZ_49US
+D Quartz Crystal Unit frequency 3.000 - 80.000MHz
+K Quartz
+F Resonators/Components_Documentation/YIC-49US_49SMT-quartz_crystal.pdf
+$ENDCMP
+#
+$CMP RESONATOR_32.768KHZ
+D Quartz Crystal Unit frequency 32.768kHz
+K Quartz
+F Resonators/Components_Documentation/32.768K-20ppm.pdf
+$ENDCMP
+#
+$CMP RESONATOR_32.768KHZ_CFPX_217_SMD
+D Quartz Crystal Unit frequency 32.768kHz SMD CFPX-217 series
+K Quartz
+F Resonators/Components_Documentation/cfpx-217.pdf
+$ENDCMP
+#
+#End Doc Library

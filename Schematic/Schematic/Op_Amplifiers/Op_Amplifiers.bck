@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0  Date: 2012-12-17 11:44:09
+#
+$CMP LM311
+D Single Comparator
+K Comparator
+F Op_Amplifiers/Components_Documentation/LM311.pdf
+$ENDCMP
+#
+$CMP MCP6004
+D 1MHz, Low-Power Op Amp (4 Op Amp in one package)
+K Op Amplifiers
+F Op_Amplifiers/Op_Amplifiers.lib
+$ENDCMP
+#
+#End Doc Library

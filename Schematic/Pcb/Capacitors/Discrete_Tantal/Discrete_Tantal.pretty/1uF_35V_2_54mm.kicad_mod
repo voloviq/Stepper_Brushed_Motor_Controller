@@ -1,0 +1,18 @@
+(module 1uF_35V_2_54mm (layer F.Cu) (tedit 5222172B)
+  (descr "1uF/35V Tantalum size T350")
+  (tags "Capacitor Tantalum")
+  (fp_text reference 10uF_35V_2_54mm (at 0 -6) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_text value VAL** (at 0 -8) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_circle (center 0 0) (end 3.5 0) (layer F.SilkS) (width 0.381))
+  (pad 2 thru_hole circle (at -1.27 0) (size 1.50114 1.50114) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 1.27 0) (size 1.50114 1.50114) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
+  (model Capacitors/Discrete_Tantal/3D_View/10uF_35V_2_54mm.x3d
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
