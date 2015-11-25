@@ -32,13 +32,16 @@ LIB_DEP:=
 LINKER_SCRIPT_DEP:=
 
 # Every subdirectory with source files must be described here
-SUBDIRS := 
+SUBDIRS :=  \
+../Documents \
+../Source_Code
 
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS +=  \
-../atmega16_low_level.c \
-../main.c
+../Source_Code/atmega16_low_level.c \
+../Source_Code/lcd_hd44780.c \
+../Source_Code/main.c
 
 
 PREPROCESSING_SRCS += 
@@ -48,20 +51,24 @@ ASM_SRCS +=
 
 
 OBJS +=  \
-atmega16_low_level.o \
-main.o
+Source_Code/atmega16_low_level.o \
+Source_Code/lcd_hd44780.o \
+Source_Code/main.o
 
 OBJS_AS_ARGS +=  \
-atmega16_low_level.o \
-main.o
+Source_Code/atmega16_low_level.o \
+Source_Code/lcd_hd44780.o \
+Source_Code/main.o
 
 C_DEPS +=  \
-atmega16_low_level.d \
-main.d
+Source_Code/atmega16_low_level.d \
+Source_Code/lcd_hd44780.d \
+Source_Code/main.d
 
 C_DEPS_AS_ARGS +=  \
-atmega16_low_level.d \
-main.d
+Source_Code/atmega16_low_level.d \
+Source_Code/lcd_hd44780.d \
+Source_Code/main.d
 
 OUTPUT_FILE_PATH +=Atmega16_Motor_Controller.elf
 
@@ -82,7 +89,9 @@ LINKER_SCRIPT_DEP+=
 
 
 
-./%.o: .././%.c
+
+
+Source_Code/%.o: ../Source_Code/%.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 4.9.2
 	$(QUOTE)C:\Program Files\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=12000000  -I"C:\Program Files\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.90\include"  -O2 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega16 -B "C:\Program Files\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.90\gcc\dev\atmega16" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
